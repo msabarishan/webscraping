@@ -1,8 +1,8 @@
 # The following python libraries are required
 from bs4 import BeautifulSoup
 import requests
-# Website from which data scraping need to be done. To change the company name, rename Asian Paints with any other company eg: MRF
-url="https://www.moneycontrol.com/stocks/hist_stock_result.php?ex=B&sc_id=API&mycomp=Asian Paints"
+# Website from which data scraping need to be done.
+url="https://www.moneycontrol.com/stocks/hist_stock_result.php?ex=B&sc_id=MRF&mycomp=MRF"
 # Enter the "from and to date"
 datas={}
 datas["frm_dy"] = 11
